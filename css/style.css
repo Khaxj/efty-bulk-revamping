@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #F15A24;
+    margin-bottom: -5px;
+}
+.forgot {
+    color: #F15A24;
+}
+
+h2 {
+    font-family:Raleway, "Calibri body", sans-serif;
+    font-weight: regular;
+    font-size: large;
+}
+p {
+    font-family: Raleway,  Verdana, sans-serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+}
+.main {
+    display: flex;
+    align-items: left;
+    padding-top: 100px;
+    margin: 20px;
+    }
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 27%;
+    margin-right: 10px;
+}
+input {
+    display: block;
+}
+.email {
+    min-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+.password {
+    min-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+.login {
+    min-width: 110%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #F15A24;
+}
+.signup {
+    padding: 10px;
+    min-width: 50%;
+    border-radius:10px;
+    background-color: #3897F6;
+}
+.line {
+    min-width: 100%;
+    border-radius: none;
+    margin-bottom: 15px;
+    }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    padding: 50px;
+}
+.fa-envelope, .fa-phone {
+    color: #F15A24;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+footer {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+
+}
