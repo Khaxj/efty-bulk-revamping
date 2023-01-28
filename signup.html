@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/signup.css">
     <title>Signup to Efty Bulk Sms</title>
 </head>
 <body>
     <header>
         <p><i class="fa-solid fa-phone"></i> <a href="tel:+254717413948">+254(0)717413948</a> <i class="fa-solid fa-envelope"></i> <a href="mailto:bulksms@eftytechnologies.com">  bulksms@eftytechnologies.com</a></p>
     </header>
-    <body>
-        <h2>Signup</h2>
-        <p>It's easy to get started.</p>
-        <hr>
-        <div>
+        <div class="wrapper">
+            <div class="main">
+                
             <form action="#">
-                <input type="text" placeholder="Your Name">
-                <input type="text" placeholder="Your Email">
-                <input type="text" placeholder="Your Phone Number">
-                <input type="text" placeholder="Your Company">
-                <textarea name="" id="" cols="20" rows="10"></textarea>
-                <button>Submit</button>
+                <div>
+                    <h2 class="signup">Signup</h2>
+                    <p>It's easy to get started</p>
+                  </div>
+                  <hr>
+            <div class="name-email">
+                <input type="text" placeholder="Your Name" class="name">
+                <input type="text" placeholder="Your Email" class="email">
+            </div>
+            <div class="phone-company">
+                <input type="text" placeholder="Your Phone Number" class="phone">
+                <input type="text" placeholder="Your Company" class="company">
+            </div>
+                <textarea name="" id="" cols="20" rows="10" class="text-area"></textarea>
+                <button class="btn">Submit</button>
             </form>
         </div>
+    </div>
+       
         <footer>
             <p>&copy {Year} | Efty Technologies | All rights reserved</p>
         </footer>
-    </body>
+   
     
 </body>
 </html>

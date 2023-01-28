@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header {
+    background-color: white;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    min-width: 100%;
+    padding-right: 20px;
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup {
+    margin-bottom: -12px;
+}
+/* .wrapper {
+    border: 1px solid lightgray;
+    background-color: white;
+    max-width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+} */
+hr {
+    min-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    box-shadow: none;
+}
+.name-email {
+    margin-bottom: 10px;
+}
+.phone-company {
+    margin-bottom: 10px;
+}
+.name, .email, .phone, .company {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.text-area {
+    min-width: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgray
+}
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    min-width: 30%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: #F15A24;
+}
+
+
+form {
+    border: 1px solid lightgray;
+    background-color: white;
+    min-width: 60%;
+    padding: 5px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.fa-envelope, .fa-phone {
+    color: #F15A24;
+    font-size: 25px;
+}
+
+h2 {
+    font-family:Raleway, "Calibri body", sans-serif;
+    font-weight: regular;
+    font-size: large;
+}
+p {
+    font-family: Raleway,  Verdana, sans-serif;
+}
+
+
+
+footer {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+
+}
