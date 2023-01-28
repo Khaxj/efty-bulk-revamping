@@ -26,19 +26,6 @@ header {
 .signup {
     margin-bottom: -12px;
 }
-/* .wrapper {
-    border: 1px solid lightgray;
-    background-color: white;
-    max-width: 40%;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-    
-} */
 hr {
     min-width: 100%;
     margin-bottom: 20px;
@@ -86,7 +73,7 @@ form {
 
 .fa-envelope, .fa-phone {
     color: #F15A24;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h2 {
@@ -98,6 +85,10 @@ p {
     font-family: Raleway,  Verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 footer {
