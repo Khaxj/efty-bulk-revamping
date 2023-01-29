@@ -41,7 +41,8 @@ p {
     align-items: center;
     justify-content: center;
     background-color: white;
-    padding: 20px;
+    border: 1px solid lightgray;
+    padding: 10px 40px;
     border-radius: 5px;
     min-width: 27%;
     margin-right: 10px;
@@ -51,7 +52,7 @@ input {
 }
 .email {
     min-width: 180%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
     margin-top: -10px;
     border: 1px solid lightgray;
@@ -60,14 +61,15 @@ input {
 }
 .password {
     min-width: 180%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
     border: 1px solid lightgray;
     border-radius: 5px;
 }
 .login {
-    min-width: 190%;
-    padding: 10px;
+    font-size: 20px;
+    min-width: 195%;
+    padding: 15px;
     margin-bottom: 5px;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -75,12 +77,13 @@ input {
     color: white;
 }
 .signup {
-    padding: 10px;
+    padding: 15px;
     min-width: 50%;
     border: 1px solid lightgray;
     border-radius:5px;
     color: white;
     background-color: #3897F6;
+    font-size: 20px;
 }
 hr {
     min-width: 100%;
@@ -100,6 +103,7 @@ form {
     justify-content: center;
     max-width: 50%;
     padding: 50px;
+    margin-right:-20px ;
 }
 .fa-envelope, .fa-phone {
     color: #F15A24;
@@ -110,7 +114,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
 
 footer {
     display: flex;
@@ -132,6 +135,61 @@ footer {
     }
     .intro {
         display:flex;
+        max-width: 100%;
+        padding: 5px;
+    }
+    .input {
+        min-width: 90%;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    
+    form {
+        margin: 10px;
+    }
+    .email {
+        min-width: 180%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    
+    }
+    .password {
+        min-width: 180%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .login {
+        min-width: 190%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: #F15A24;
+    }
+    .signup {
+        border-radius: 5px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -110px;
+    }
+    .intro {
+        display:flex;
+        flex-direction: column;
         max-width: 100%;
         padding: 5px;
     }
