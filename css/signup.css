@@ -51,6 +51,11 @@ hr {
     font-size: 20px;
 }
 
+.display-phone {
+    margin-right: 10px;
+}
+
+
 
 form {
     border: 1px solid lightgray;
@@ -95,4 +100,8 @@ footer {
     bottom: 0;
     min-width: 100%;
 
+}
+
+.contact-info {
+    margin-bottom: -15px;
 }

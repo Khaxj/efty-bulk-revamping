@@ -55,15 +55,21 @@ a {
     color:white;
     font-size: 18px;
 }
+.display-phone {
+    margin-right: 10px;
+}
 
 
 footer {
     display: flex;
+    flex-direction: column;
     background-color: white;
     align-items: center;
     justify-content: center;
     position: absolute;
     bottom: 0;
     min-width: 100%;
-
+}
+.contact-info {
+    margin-bottom: -15px;
 }
